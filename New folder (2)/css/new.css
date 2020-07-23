@@ -1,0 +1,211 @@
+.navbar {
+  background-color: inherit;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #00aeda;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: #ddd;
+}
+
+.scrolled {
+  background: rgba(106, 135, 167, 1);
+
+}
+
+
+/** start header*/
+header {
+  background: url('../image/215704674.jpg') no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 50px;
+  position: relative;
+  height: 635px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 60;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 10px;
+}
+
+header p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 20px;
+  white-space: 20px;
+}
+
+header .new {
+  font-size: 40px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+/*end header*/
+.luxor {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+
+.luxor-image {
+  width: 100%;
+}
+
+.luxor-head {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.luxor-text {
+  padding-top: 17px;
+  font-size: 18px;
+  opacity: 0.6;
+  line-height: 28px;
+}
+
+.luxor-tour {
+  padding-top: 120px;
+}
+
+.luxor-tour.luxor-image {
+  width: 100%;
+}
+
+.luxor-tour.luxor-head {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.luxor-tour.luxor-text {
+  padding-top: 17px;
+  font-size: 18px;
+  opacity: 0.6;
+  line-height: 28px;
+}
+
+.museum {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.museum h2 {
+  padding-bottom: 50px;
+}
+
+.museum-section img {
+  width: 100%;
+
+}
+
+/*start footer*/
+footer {
+  margin-top: 100px;
+  background-color: #222225;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+footer .about h1 {
+  color: #fff;
+  font-size: 23px;
+}
+
+footer .about p {
+  color: #a1a1a1;
+}
+
+footer .social h1 {
+  color: #fff;
+  font-size: 23px;
+}
+
+footer .social i {
+  font-size: 25px;
+  color: #fff;
+  padding-top: 21px;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+
+footer .social .fac:hover {
+  color: #00aeda;
+}
+
+footer .social .twit:hover {
+  color: #00aeda;
+}
+
+footer .social .link:hover {
+  color: #00aeda;
+}
+
+footer .contact h1 {
+  font-size: 23px;
+  color: #fff;
+}
+
+footer .contact p {
+  color: #a1a1a1;
+}
+
+.copyright {
+  padding-top: 50px;
+  color: #ddd;
+}
+
+/*end footer*/
+.back-to-top {
+  background: rgba(0, 174, 218, 0.5);
+  margin: 0;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  z-index: 90;
+  display: none;
+  text-decoration: none;
+  color: #0E1729;
+  display: inline;
+}
+
+.back-to-top:hover {
+  background: rgba(0, 174, 218, 0.9);
+  color: #FFFFFF;
+}
+
+.back-to-top i {
+  position: relative;
+  left: 13px;
+  top: 2px;
+  font-size: 24px;
+  color: #FFFFFF;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
